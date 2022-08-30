@@ -14,24 +14,19 @@ function new_form(data) {
         <form method="POST" action="/places">
           <div className="form-group">
             <label htmlFor="name">Place Name</label>
-            <input
-              className="form-control"
-              id="founded"
-              name="founded"
-              required
-            />
+            <input className="form-control" id="name" name="name" required />
           </div>
           <div className="form-group">
             <label htmlFor="pic">Place Picture</label>
-            <input className="form-control" id="founded" name="founded" />
+            <input className="form-control" id="pic" name="pic" />
           </div>
           <div className="form-group">
             <label htmlFor="city">City</label>
-            <input className="form-control" id="founded" name="founded" />
+            <input className="form-control" id="city" name="city" />
           </div>
           <div className="form-group">
             <label htmlFor="state">State</label>
-            <input className="form-control" id="founded" name="founded" />
+            <input className="form-control" id="state" name="state" />
           </div>
           <div className="form-group">
             <label htmlFor="cuisines">Cuisines</label>

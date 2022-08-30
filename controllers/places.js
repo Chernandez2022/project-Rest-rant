@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const db = require("../models");
-const places = require("../models/place.js");
+const places = require("../models/places.js");
 
 router.get("/", (req, res) => {
   db.Place.find()
