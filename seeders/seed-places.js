@@ -26,3 +26,5 @@ db.Place.create([
     console.log("Failure!", err);
     process.exit();
   });
+
+seed();
